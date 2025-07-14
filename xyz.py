@@ -4,7 +4,7 @@ class AddExpensePage(tk.Frame):
     def _init_(self, parent, controller):
         super()._init_(parent)
 
-        tk.Label(self, text="➕ Add New Expense", font=("Helvetica", 18)).pack(pady=20)
+        tk.Label(self, text="Add New Expense", font=("Helvetica", 18)).pack(pady=20)
 
         form_frame = tk.Frame(self)
         form_frame.pack(pady=10)
@@ -26,7 +26,7 @@ class AddExpensePage(tk.Frame):
         tk.Entry(form_frame, textvariable=self.date_var, width=30).grid(row=2, column=1, pady=5)
 
         # Buttons
-        tk.Button(self, text="💾 Save Expense", command=self.save_expense, width=20).pack(pady=10)
+        tk.Button(self, text="Save Expense", command=self.save_expense, width=20).pack(pady=10)
         tk.Button(self, text="⬅ Back", command=lambda: controller.show_frame("HomePage")).pack()
 
     def save_expense(self):
