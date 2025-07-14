@@ -1,5 +1,5 @@
 TiTle: EXPENSE-TRACKER
-This is an expense tracking program that adds your expenses, store them in tabular form and gives you a summar of your past expenses.
+This is an expense tracking program that adds your expenses, store them in tabular form and gives you a summary of your past expenses.
 You can run the code by simply downloading python on your visual studio and copy pasting the code to run it, after adding some expenses, you may view them by refreshing button if they are not visible and see the summary by generating summary.
 For your ease i am pasting the code here as well:
 import tkinter as tk
