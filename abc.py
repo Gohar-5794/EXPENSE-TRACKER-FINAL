@@ -3,7 +3,7 @@
 class ViewExpensesPage(tk.Frame):
     def _init_(self, parent, controller):
         super()._init_(parent)
-        tk.Label(self, text="All Expenses", font=("Helvetica", 18)).pack(pady=10)
+        tk.Label(self, text="All Expenses", font=("Helvetica", 20)).pack(pady=10)
 
         self.tree = ttk.Treeview(self, columns=("ID", "Category", "Amount", "Date"), show='headings')
         self.tree.heading("ID", text="ID")
